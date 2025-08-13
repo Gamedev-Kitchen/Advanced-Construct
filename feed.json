@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://ac.gamedev.kitchen/keyboard-mastery/",
+            "url": "https://ac.gamedev.kitchen/keyboard-mastery/",
+            "title": "Keyboard mastery",
+            "summary": "One of the best ways to increase your productivity in any software&hellip;",
+            "content_html": "<p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has a very good “keyboard coverage”, especially in event sheets.</p><p>I find that switching between keyboard and mouse slows me down and doesn’t help with my flow either, so I re-read the list of keyboard shortcuts in the official docs from time to time and try incorporating more of them in my workflow.</p><p>You can <a href=\"https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts\">check out the list of Construct’s keyboard shortcuts here</a>, and you might want to bookmark it too while you’re there. I highly recommend starting with the shortcuts for the event sheet view, but if you spend a lot of time in the animation editor, those shortcuts come super handy as well.</p><p>Moving the cursor (or selection) via keyboard in event sheets might be a bit awkward at first, but I think it’s worth the effort to learn it.</p><p>More seasoned developers probably know most cursor navigation shortcuts too, but just in case, here’s a little refresher. (Note that these are for Windows, they probably work on Linux, possibly on macOS with some modifications.)</p><ul>\n<li><em>Home</em> / <em>End</em> moves the cursor to the start or end of the line</li>\n<li><em>Ctrl</em> + <em>Home</em> / <em>End</em> to move to the start or end of the document</li>\n<li><em>Page up</em> / <em>Page down</em> does what it says on the tin :)</li>\n<li><em>Ctrl</em> + <em>Left</em> / <em>Right</em> arrow keys move the cursor by one word. What constitutes a word might vary based on the app or your OS; spaces and special characters are word delimiters most of the time with some exceptions (eg. underscore usually is not, hyphen-minus-dash depends).</li>\n</ul>\n<p>All of the above can be combined with <em>Shift</em> to select text.</p><p>Since Construct is running in a browser, it’s worth learning some of those shortcuts (these might depend on your browser or OS as well), especially:</p><ul>\n<li><em>Ctrl</em> + <em>R</em> to reload; add Shift to force your browser to ignore the local cache</li>\n<li><em>Ctrl</em> + <em>W</em> to close a tab (including Construct, careful :), add <em>Shift</em> to close all tabs in the current window</li>\n<li><em>Ctrl</em> + <em>Shift</em> + <em>I</em> to open developer tools</li>\n</ul>\n",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-08-13T20:10:11+02:00",
+            "date_modified": "2025-08-13T20:23:43+02:00"
+        },
+        {
             "id": "https://ac.gamedev.kitchen/backing-up-construct-projects/",
             "url": "https://ac.gamedev.kitchen/backing-up-construct-projects/",
             "title": "Backing up Construct projects",
