@@ -9,5 +9,19 @@
         "name": "Fodi"
     },
     "items": [
+        {
+            "id": "https://ac.gamedev.kitchen/introduction/",
+            "url": "https://ac.gamedev.kitchen/introduction/",
+            "title": "Introduction",
+            "summary": "Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge&hellip;",
+            "content_html": "<p>Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge I gathered since game development became my hobby in 2020!</p>\n<p>I'm Fodi, a millenial web developer from Hungary. My plan is to contunuosly update this site with articles, hopefully with some videos. Some might age like milk, some might hold up better. But instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>\n<p>If you have feedback, you can find and DM me in the <a href=\"https://discord.gg/g4g3VNsynC\" target=\"_blank\" rel=\"noopener noreferrer\">Consruct Community Discord</a>.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-08-13T19:08:52+02:00",
+            "date_modified": "2025-08-13T19:08:57+02:00"
+        }
     ]
 }

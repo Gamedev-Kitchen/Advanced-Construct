@@ -3,10 +3,32 @@
     <title>Advanced Construct</title>
     <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
     <link href="https://ac.gamedev.kitchen" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2025-08-13T19:08:57+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://ac.gamedev.kitchen</id>
 
+    <entry>
+        <title>Introduction</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://ac.gamedev.kitchen/introduction/"/>
+        <id>https://ac.gamedev.kitchen/introduction/</id>
+
+        <updated>2025-08-13T19:08:52+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge I gathered since game development became my hobby in 2020!</p>
+<p>I'm Fodi, a millenial web developer from Hungary. My plan is to contunuosly update this site with articles, hopefully with some videos. Some might age like milk, some might hold up better. But instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>
+<p>If you have feedback, you can find and DM me in the <a href="https://discord.gg/g4g3VNsynC" target="_blank" rel="noopener noreferrer">Consruct Community Discord</a>.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
