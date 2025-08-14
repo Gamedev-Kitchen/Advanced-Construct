@@ -3,12 +3,73 @@
     <title>Advanced Construct</title>
     <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
     <link href="https://ac.gamedev.kitchen" />
-    <updated>2025-08-13T20:23:43+02:00</updated>
+    <updated>2025-08-14T13:31:32+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://ac.gamedev.kitchen</id>
 
+    <entry>
+        <title>Using &quot;global names&quot;</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://ac.gamedev.kitchen/using-global-names/"/>
+        <id>https://ac.gamedev.kitchen/using-global-names/</id>
+            <category term="Organization"/>
+
+        <updated>2025-08-13T21:56:09+02:00</updated>
+            <summary>
+                <![CDATA[
+                    OG Construct developer Salman Shurie referred to the engine’s event system as&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>OG Construct developer <a href="https://bsky.app/profile/salmanshh.bsky.social">Salman Shurie</a> referred to the engine’s event system as “super intellisense” a couple of times - turns out the phrase was coined by <a href="https://bsky.app/profile/wtfmig.bsky.social">@wtfmig</a>. Nevertheless, I think it’s on point. </p><p>When you’re using the event system (and no JS/TS code), you can’t mistype names of variables, constants, behaviors, objects, families or functions, because the editor simply won’t let you. You can also rename any of these without worrying about breaking code, Construct automatically updates all references to reflect the name change (again, as long as they are not mentioned in JS/TS code). If you’re using the paid version, the editor can also find all usages of variables, constants, objects and familiy members. It’s an amazing tool and I use it countless times during development.</p><p>There are some things you can still mistype, since they are not structured as identifiers, but strings. Layer names, animation names, effect names, various tags (for tweens, timers, sounds, et cetera) can be entered as string literals. Construct tries to suggest them, but you can still make a typo and you don’t get usage finding. And if you decide to rename a layer, animation, effect or any sort of tag, you’ll have to manually search for it and change it manually by hand which is tedious and error prone.</p><p>My solution is to create global constants (which are identifiers) and use them instead of string literals. This way you get typo protection, usage lookups and renaming things is a lot easier once you resist the urge to use string literals in those cases. Granted, there’s an extra step (creating a global constant), but I think it’s worth the extra features.</p><p>I put the “global name” constants in an event sheet called vNames. Since it only contains variables, it’s automatically “included” in all events sheets, so you don’t have to worry about importing it. (By the way the same goes for functions and custom actions too; only sheets events have to be included to run)</p><p>You can apply a naming convention on the global “name” constants to signify their “kind”, eg:</p><ul>
+<li><code>LAYER_Main = &quot;Main&quot;</code> (value matches the layer name)</li>
+<li><code>TIMER_Invincibility = &quot;Invincibility&quot;</code> (timer tag)</li>
+<li><code>TWEEN_FadeIn = &quot;FadeIn&quot;</code> (tween tag)</li>
+<li><code>EFFECT_Brightness = &quot;Brightness&quot;</code> (value matches an effect name)</li>
+<li><code>ANIM_Idle = &quot;Idle&quot;</code> (value matches an animation name)</li>
+</ul>
+<p>…or you can even add the names of the related family or object type, so there’s no reuse between different types:</p><ul>
+<li><code>TIMER_Player_Invincibility = &quot;Player_Invincibility&quot;</code></li>
+<li><code>TWEEN_Enemy_Opacity_FadeIn = &quot;Enemy_Opacity_FadeIn&quot;</code> (also includes the “type” of tween - in this case, opacity)</li>
+<li><code>EFFECT_Item_Brightness = &quot;Brightness&quot;</code></li>
+<li><code>ANIM_Enemy_Idle = &quot;Idle&quot;</code></li>
+<li><code>ANIM_Player_Idle = &quot;Idle&quot;</code></li>
+</ul>
+<p>Lately I’ve been doing the latter which has two additional benefits:</p><ul>
+<li>Less confusion when finding references, since every name is specific to an object type or a family</li>
+<li>Less typing / better autocompletion: eg. I can type ANIM_ to get a list of all animation names, continuing typing the object/family name filters the list even further so it’s easy to choose one with the arrow keys</li>
+<li>Tidier vNames sheet: alphabetically sorting global names means they are grouped by type and object / family.</li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Finding things in Construct</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://ac.gamedev.kitchen/finding-things-in-construct/"/>
+        <id>https://ac.gamedev.kitchen/finding-things-in-construct/</id>
+            <category term="Productivity"/>
+
+        <updated>2025-08-13T20:38:07+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Let’s take a look at the tools in Construct that let you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Let’s take a look at the tools in Construct that let you find stuff!</p><p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also remove results by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p><p>If you’re editing a code block or a text file, <em>Ctrl</em> + <em>F</em> brings up a different toolbar that allows you to find (and even replace). The toolbar might look familiar if you’re a VSCode user, since both are powered by the open source Monaco code editor which replaced the old CodeMirror 5 based one in Construct 3 r432. It also has nifty features like renaming identifiers by pressing <em>F2</em> and a bunch of other which you can find in the Command palette. Just note that the scope is always the current code block or tab.</p><p>As your project grows, you might end up scrolling a lot up and down the project bar to find event sheets, objects, files, et cetera; luckily there’s a search field you can focus by pressing <em>Ctrl</em> + <em>Shift</em> + <em>F</em> and just start typing to find matches.</p><p>Since Construct is running in the browser you can still use the generic find tool, which can be especially useful for highlighting phrases anywhere on (or off) your screen. Press <em>Ctrl</em> + <em>G</em> to bring it up (since <em>Ctrl</em> + <em>F</em> is overridden to use Construct’s own find feature).</p><p>A super useful feature (unfortunately missing from the free version) is that you can right click any object, family, function, custom action or variable and select “find all references”. In all cases, Construct will compile a list of each “mention” in the event sheets. If you selected an object instance, object type or family, you’ll also see the number of instances per layout. If you use the “Create object (by name)” system action anywhere, object &amp; family reference lists will also include those actions as well just to be on the safe side; you can hide those results by unchecking “Show ambiguous”.</p><p>If you opt in to use “global names” instead of string literals to reference names of animations, layers, effects, various tags and such in your event sheets, you’ll also be able to find all mentions of those using the “find all references” feature. Not to mention the added bonus of typo protection and easy renaming… but that’s a topic for a different day :)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Keyboard mastery</title>
         <author>
@@ -16,6 +77,7 @@
         </author>
         <link href="https://ac.gamedev.kitchen/keyboard-mastery/"/>
         <id>https://ac.gamedev.kitchen/keyboard-mastery/</id>
+            <category term="Productivity"/>
 
         <updated>2025-08-13T20:10:11+02:00</updated>
             <summary>
@@ -47,6 +109,7 @@
         </author>
         <link href="https://ac.gamedev.kitchen/backing-up-construct-projects/"/>
         <id>https://ac.gamedev.kitchen/backing-up-construct-projects/</id>
+            <category term="Basics"/>
 
         <updated>2025-08-13T19:56:06+02:00</updated>
             <summary>
@@ -67,6 +130,7 @@
         </author>
         <link href="https://ac.gamedev.kitchen/setting-up-construct/"/>
         <id>https://ac.gamedev.kitchen/setting-up-construct/</id>
+            <category term="Basics"/>
 
         <updated>2025-08-13T19:53:32+02:00</updated>
             <summary>
