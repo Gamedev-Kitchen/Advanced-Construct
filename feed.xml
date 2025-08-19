@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
     <link href="https://ac.gamedev.kitchen" />
-    <updated>2025-08-19T19:03:17+02:00</updated>
+    <updated>2025-08-19T23:35:52+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -76,14 +76,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" alt="" />
-                    <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff!</p>
+                    <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" class="type:primaryImage" alt="" /></p>
-                <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff!</p>
+                <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
 <p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also <strong>remove results</strong> by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p>
 <p>If you're editing a code block or a text file, <em>Ctrl</em> + <em>F</em> brings up a different toolbar that allows you to <strong>find (and even replace) text</strong>. The toolbar might look familiar if you're a VSCode user, since both are powered by the open source Monaco code editor which replaced the old CodeMirror 5 based one in Construct 3 r432. It also has nifty features like renaming identifiers by pressing <em>F2</em> and a bunch of other which you can find in the Command palette. Just note that the scope is always the current code block or tab.</p>
@@ -145,20 +145,20 @@
         </author>
         <link href="https://ac.gamedev.kitchen/backing-up-construct-projects/"/>
         <id>https://ac.gamedev.kitchen/backing-up-construct-projects/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/11/backups.png" medium="image" />
+        <media:content url="https://ac.gamedev.kitchen/media/posts/11/backup.png" medium="image" />
             <category term="Basics"/>
 
         <updated>2025-08-13T19:56:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/11/backups.png" alt="" />
+                        <img src="https://ac.gamedev.kitchen/media/posts/11/backup.png" alt="" />
                     <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/11/backups.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/11/backup.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
 <p>Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider hot &amp; cold backups, automatic and manual ones, and periodically verifying backups, especially for important stuff.</p>
