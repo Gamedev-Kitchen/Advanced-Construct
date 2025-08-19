@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
     <link href="https://ac.gamedev.kitchen" />
-    <updated>2025-08-14T18:03:14+02:00</updated>
+    <updated>2025-08-19T14:21:16+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,15 +16,19 @@
         </author>
         <link href="https://ac.gamedev.kitchen/using-global-names/"/>
         <id>https://ac.gamedev.kitchen/using-global-names/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" medium="image" />
+            <category term="Organization"/>
 
         <updated>2025-08-13T21:56:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" alt="" />
                     OG Construct developer Salman Shurie referred to the engine's event system as "super intellisense" a couple of times - turns&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" class="type:primaryImage" alt="" /></p>
                 <p>OG Construct developer <a href="https://bsky.app/profile/salmanshh.bsky.social">Salman Shurie</a> referred to the engine's event system as "super intellisense" a couple of times - turns out the phrase was coined by <a href="https://bsky.app/profile/wtfmig.bsky.social">@wtfmig</a>. Nevertheless, I think it's on point.</p>
 <p>When you're using the event system (and no JS/TS code), you can't mistype names of variables, constants, behaviors, objects, families or functions, because the editor simply won't let you. You can also rename any of these without worrying about breaking code, Construct automatically updates all references to reflect the name change (again, as long as they are not mentioned in JS/TS code). If you're using the paid version, the editor can also find all usages of variables, constants, objects and familiy members. It's an amazing tool and I use it countless times during development.</p>
 <p>There are some things you can still mistype, since they are not structured as identifiers, but strings. Layer names, animation names, effect names, various tags (for tweens, timers, sounds, et cetera) can be entered as string literals. Construct tries to suggest them, but you can still make a typo and you don't get usage finding. And if you decide to rename a layer, animation, effect or any sort of tag, you'll have to manually search for it and change it manually by hand which is tedious and error prone.</p>
@@ -62,22 +66,25 @@
         </author>
         <link href="https://ac.gamedev.kitchen/finding-things-in-construct/"/>
         <id>https://ac.gamedev.kitchen/finding-things-in-construct/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" medium="image" />
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:38:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" alt="" />
                     Let's take a look at the tools in Construct that let you find stuff! Like in most development environments you&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" class="type:primaryImage" alt="" /></p>
                 <p>Let's take a look at the tools in Construct that let you find stuff!</p>
-<p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also remove results by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p>
-<p>If you're editing a code block or a text file, <em>Ctrl</em> + <em>F</em> brings up a different toolbar that allows you to find (and even replace). The toolbar might look familiar if you're a VSCode user, since both are powered by the open source Monaco code editor which replaced the old CodeMirror 5 based one in Construct 3 r432. It also has nifty features like renaming identifiers by pressing <em>F2</em> and a bunch of other which you can find in the Command palette. Just note that the scope is always the current code block or tab.</p>
-<p>As your project grows, you might end up scrolling a lot up and down the project bar to find event sheets, objects, files, et cetera; luckily there's a search field you can focus by pressing <em>Ctrl</em> + <em>Shift</em> + <em>F</em> and just start typing to find matches.</p>
-<p>Since Construct is running in the browser you can still use the generic find tool, which can be especially useful for highlighting phrases anywhere on (or off) your screen. Press <em>Ctrl</em> + <em>G</em> to bring it up (since <em>Ctrl</em> + <em>F</em> is overridden to use Construct's own find feature).</p>
-<p>A super useful feature (unfortunately missing from the free version) is that you can right click any object, family, function, custom action or variable and select "find all references". In all cases, Construct will compile a list of each "mention" in the event sheets. If you selected an object instance, object type or family, you'll also see the number of instances per layout. If you use the "Create object (by name)" system action anywhere, object &amp; family reference lists will also include those actions as well just to be on the safe side; you can hide those results by unchecking "Show ambiguous".</p>
+<p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also <strong>remove results</strong> by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p>
+<p>If you're editing a code block or a text file, <em>Ctrl</em> + <em>F</em> brings up a different toolbar that allows you to <strong>find (and even replace) text</strong>. The toolbar might look familiar if you're a VSCode user, since both are powered by the open source Monaco code editor which replaced the old CodeMirror 5 based one in Construct 3 r432. It also has nifty features like renaming identifiers by pressing <em>F2</em> and a bunch of other which you can find in the Command palette. Just note that the scope is always the current code block or tab.</p>
+<p>As your project grows, you might end up scrolling a lot up and down the project bar to <strong>find event sheets, objects, files</strong>, et cetera; luckily there's a search field you can focus by pressing <em>Ctrl</em> + <em>Shift</em> + <em>F</em> and just start typing to find matches.</p>
+<p>Since Construct is running in the browser you can still use the generic find tool, which can be especially useful for <strong>highlighting text on your screen</strong>. Press <em>Ctrl</em> + <em>G</em> to bring it up (since <em>Ctrl</em> + <em>F</em> is overridden to use Construct's own find feature).</p>
+<p>A super useful feature (unfortunately missing from the free version) is that you can right click any object, family, function, custom action or variable and select "<strong>find all references</strong>". In all cases, Construct will compile a list of each "mention" in the event sheets. If you selected an object instance, object type or family, you'll also see the number of instances per layout. If you use the "Create object (by name)" system action anywhere, object &amp; family reference lists will also include those actions as well just to be on the safe side; you can hide those results by unchecking "Show ambiguous".</p>
 <p>If you opt in to use <strong>"global names"</strong> instead of string literals to reference names of animations, layers, effects, various tags and such in your event sheets, you'll also be able to find all mentions of those using the "find all references" feature. Not to mention the added bonus of typo protection and easy renaming. <a href="#non-existing-post-with-id-7">Read more about "global names" here!</a></p>
             ]]>
         </content>
@@ -89,16 +96,19 @@
         </author>
         <link href="https://ac.gamedev.kitchen/keyboard-mastery/"/>
         <id>https://ac.gamedev.kitchen/keyboard-mastery/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" medium="image" />
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:10:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" alt="" />
                     One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="" /></p>
                 <p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has a very good "keyboard coverage", especially in event sheets.</p>
 <p>I find that switching between keyboard and mouse slows me down and doesn't help with my flow either, so I re-read the list of keyboard shortcuts in the official docs from time to time and try incorporating more of them in my workflow.</p>
 <p>You can <a href="https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts">check out the list of Construct's keyboard shortcuts here</a>, and you might want to bookmark it too while you're there. I highly recommend starting with the shortcuts for the event sheet view, but if you spend a lot of time in the animation editor, those shortcuts come super handy as well.</p>
@@ -127,16 +137,19 @@
         </author>
         <link href="https://ac.gamedev.kitchen/backing-up-construct-projects/"/>
         <id>https://ac.gamedev.kitchen/backing-up-construct-projects/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/11/backups.png" medium="image" />
             <category term="Basics"/>
 
         <updated>2025-08-13T19:56:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ac.gamedev.kitchen/media/posts/11/backups.png" alt="" />
                     Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/11/backups.png" class="type:primaryImage" alt="" /></p>
                 <p>Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider hot &amp; cold backups, automatic and manual ones, and periodically verifying backups, especially for important stuff.</p>
 <p>My method is to put all of my <strong>Construct projects inside Dropbox</strong>, and since I'm almost always online that's already a form of automatic backup, since Dropbox detects when I save a project, immediately pushes the change to the server (and keeps a few versions back as well). I use c3p project files (because I like to put emojis in my event sheet names - don't judge :D - and those don't sync at time of writing). A disadvantage is that saving is a bit slower due to the extra zipping step, but my projects are usually not too big, so that's not a big issue for me.</p>
 <p>Every few hours I <strong>save the project with a new file name</strong> (eg MyProject-v01, then MyProject-v02, etc), which also constitutes a form of versioning. If you prefer working with project folders, git is probably the best idea; just don't forget to commit and push to remote (eg. GitHub, GitLab, whatever floats your boat) regularly.</p>
@@ -152,28 +165,31 @@
         </author>
         <link href="https://ac.gamedev.kitchen/setting-up-construct/"/>
         <id>https://ac.gamedev.kitchen/setting-up-construct/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" medium="image" />
             <category term="Basics"/>
 
         <updated>2025-08-13T19:53:00+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" alt="" />
                     Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I wouldn't want to wonder&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I wouldn't want to wonder around today's Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in Chromium. I chose it because:</p>
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" class="type:primaryImage" alt="" /></p>
+                <p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I wouldn't want to wonder around today's Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in <strong>Chromium</strong>. I chose it because:</p>
 <ul>
 <li>Chromium seems to run games with better performance compared to Firefox. The difference is especially apparent in 3D games, but most of my 2D games also have better FPS on Chromium based browsers.</li>
 <li>I can install Construct as a PWA with it, which comes with a neat launcher icon, a bit more screen space and .c3p file association which is neat. It feels a bit more like a native app.</li>
 <li>Google Chrome and Microsoft Edge are popular browsers and they are both based on Chromium (as are Opera and Brave). If something's sussy in one of those browsers, it's probably going to be sussy in all of them.</li>
 <li>Chromium is open source and doesn't push Google crap, Microsoft crap or cryptocurrencies. At the time of writing :)</li>
 </ul>
-<p>I use the <a href="https://github.com/Hibbiki/chromium-win64/">Chromium build by Hibbiki</a>, which I installed and keep updated with <a href="https://scoop.sh/">scoop</a>. Other alternatives include the <a href="https://chromium.woolyss.com/">Woolyss build</a> and <a href="https://github.com/ungoogled-software/ungoogled-chromium">Ungoogled Chromium</a> but I personally don't mind the small amount of Google stuff in the build I use, especially because I barely use it for anything other then running Construct.</p>
-<p>If you don't have concerns about Google Chrome, Microsoft Edge, Opera or Brave, just use any of them, Construct probably runs well in all of them.</p>
-<p>On Windows 10 and newer you also have the option to install Construct 3 from the Microsoft Store; I'm guessing it's a similar experience to installing the PWA with Microsoft Edge.</p>
+<p class="msg msg--info"><strong>Side note</strong><br>I use the <a href="https://github.com/Hibbiki/chromium-win64/">Chromium build by Hibbiki</a>, which I installed and keep updated with <a href="https://scoop.sh/">scoop</a>. Other alternatives include the <a href="https://chromium.woolyss.com/">Woolyss build</a> and <a href="https://github.com/ungoogled-software/ungoogled-chromium">Ungoogled Chromium</a>. I personally don't mind the small amount of Google stuff in the build I use, especially because I barely use it for anything other then running Construct.</p>
+<p>If you don't have concerns about Google Chrome, Microsoft Edge, Opera or Brave, just use any of them, Construct should run well in all of them.</p>
+<p>On Windows 10 and newer you also have the option to install Construct 3 from the <strong>Microsoft Store</strong>; I'm guessing it's a similar experience to installing the PWA with Microsoft Edge.</p>
 <p>When you open the Construct editor for the first time, it immediately starts downloading the necessary files for offline use and will let you know via a notification in the bottom left when it's ready.</p>
-<p>If you're planning to use Construct offline, make sure you open a project and run a preview, as some browsers might prevent Construct from caching the files needed to run projects. Also don't forget to log in while online before going off the grid.</p>
+<p>If you're planning to<strong> use Construct offline</strong>, make sure you open a project and run a preview, as some browsers might prevent Construct from caching the files needed to run projects. Also don't forget to log in while online before going off the grid.</p>
             ]]>
         </content>
     </entry>
@@ -184,18 +200,27 @@
         </author>
         <link href="https://ac.gamedev.kitchen/introduction/"/>
         <id>https://ac.gamedev.kitchen/introduction/</id>
+        <media:content url="https://ac.gamedev.kitchen/media/posts/1/intro.png" medium="image" />
 
         <updated>2025-08-13T19:08:52+02:00</updated>
             <summary>
                 <![CDATA[
-                    Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge I gathered since game development became my hobby&hellip;
+                        <img src="https://ac.gamedev.kitchen/media/posts/1/intro.png" alt="" />
+                    Hi there! Welcome to Advanced Construct, an attempt to share knowledge I gathered since game development (and Construct 3) became&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Hi there &amp; welcome to Advanced Construct, an attempt to share knowledge I gathered since game development became my hobby in 2020!</p>
-<p>I'm Fodi, a millenial web developer from Hungary. My plan is to contunuosly update this site with articles, hopefully with some videos. Some might age like milk, some might hold up better. But instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>
-<p>If you have feedback, you can find and DM me in the <a href="https://discord.gg/g4g3VNsynC" target="_blank" rel="noopener noreferrer">Consruct Community Discord</a>.</p>
+                    <p><img src="https://ac.gamedev.kitchen/media/posts/1/intro.png" class="type:primaryImage" alt="" /></p>
+                <p>Hi there! Welcome to <strong>Advanced Construct</strong>, an attempt to share knowledge I gathered since game development (and Construct 3) became my hobby in 2020!</p>
+<p>I'm Fodi, a millenial web developer from Hungary. My plan is to continuosly update this site with articles, and if there's traction, videos as well. Some might age like milk, some might hold up better. Instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>
+<p>Everything I post here revolve around Construct 3, more specifically:</p>
+<ul>
+<li><a href="https://ac.gamedev.kitchen/tags/basics/">Basics</a> to improve your developer experience (like setting up the Construct Editor, backups, et cetera).</li>
+<li>Ways to enhance your <a href="https://ac.gamedev.kitchen/tags/productivity/">productivity</a> and development speed in Construct.</li>
+<li>Project <a href="https://ac.gamedev.kitchen/tags/organization/">organization</a> tactics and patterns to keep things relatively clean and easier to build upon.</li>
+</ul>
+<p>If you have questions or feedback, feel free to find me in the <a href="https://discord.gg/g4g3VNsynC" target="_blank" rel="noopener noreferrer">Consruct Community Discord</a> and send me a DM.</p>
             ]]>
         </content>
     </entry>
