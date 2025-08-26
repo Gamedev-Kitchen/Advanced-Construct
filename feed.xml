@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
     <link href="https://ac.gamedev.kitchen" />
-    <updated>2025-08-19T23:35:52+02:00</updated>
+    <updated>2025-08-26T17:43:42+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -91,6 +91,7 @@
 <p>Since Construct is running in the browser you can still use the generic find tool, which can be especially useful for <strong>highlighting text on your screen</strong>. Press <em>Ctrl</em> + <em>G</em> to bring it up (since <em>Ctrl</em> + <em>F</em> is overridden to use Construct's own find feature).</p>
 <p>A super useful feature (unfortunately missing from the free version) is that you can right click any object, family, function, custom action or variable and select "<strong>find all references</strong>". In all cases, Construct will compile a list of each "mention" in the event sheets. If you selected an object instance, object type or family, you'll also see the number of instances per layout. If you use the "Create object (by name)" system action anywhere, object &amp; family reference lists will also include those actions as well just to be on the safe side; you can hide those results by unchecking "Show ambiguous".</p>
 <p>If you opt in to use <strong>"global names"</strong> instead of string literals to reference names of animations, layers, effects, various tags and such in your event sheets, you'll also be able to find all mentions of those using the "find all references" feature. Not to mention the added bonus of typo protection and easy renaming. <a href="#non-existing-post-with-id-7">Read more about "global names" here!</a></p>
+<p>When making changes to a fairly complex project it's easy to get lost jumping between event sheets (especially if you have about 20 of them open). In such a scenario I like to use the often forgotten <strong>bookmarks feature</strong>. The <strong>Bookmarks bar</strong> is not open by default, but I usually have it open all the time docked in the bottom left corner, just taking a bit of space from the <strong>Properties bar</strong>. When you're in an event, you can press <em>F2</em> to bookmark it, which adds an easy to spot icon next to the event and adds it to the Bookmarks bar, where you can double click it to jump right to it. Just don't forget to remove old bookmarks you no longer need: the easiest way is to right-click the bar and select <strong>Remove All</strong>.</p>
             ]]>
         </content>
     </entry>
