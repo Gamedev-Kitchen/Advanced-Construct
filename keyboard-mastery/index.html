@@ -12,35 +12,11 @@
 						}
 						
 						
-				var gc_element_to_check = document.getElementById('graphcomment');
-
-				if ('IntersectionObserver' in window) {
-					var iObserver = new IntersectionObserver(
-						(entries, observer) => {
-							entries.forEach(entry => {
-								if (entry.intersectionRatio >= 0.1) {
-									(function() {
-										var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-										gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-										(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-									})();
-									observer.unobserve(entry.target);
-								}
-							});
-						},
-						{
-							threshold: [0, 0.2, 0.5, 1]
-						}
-					);
-
-					iObserver.observe(gc_element_to_check);
-				} else {
-					(function() {
-						var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-						gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-					})();
-				}</script><script type="text/javascript"></script></div></div></div></div></main><div class="right-bar"><div class="right-bar__inner"><div class="sidebar"><section class="box featured"><h3 class="box__title">Featured Posts</h3><ul class="featured__container"><li class="featured__item"><a href="https://advancedconstruct.net/introduction/" class="featured__image"><img src="https://advancedconstruct.net/media/posts/1/responsive/intro-xs.webp" loading="lazy" alt="" height="534" width="534"></a><div><a href="https://advancedconstruct.net/introduction/" class="featured__title">Introduction</a></div></li></ul></section><section class="box authors"><h3 class="box__title">About the author</h3><ul class="authors__cotainer"><li class="authors__item"><a href="https://advancedconstruct.net/authors/fodi/" class="authors__image"><img src="https://advancedconstruct.net/media/website/tea-square-600px.jpg" loading="lazy" alt="Fodi" height="600" width="600" class="authors__img"></a><div><a href="https://advancedconstruct.net/authors/fodi/" class="authors__title">Fodi</a></div></li></ul></section><section class="box tags"><h3 class="box__title">Recommended Topics</h3><ul class="tags__list"><li class="tags__item"><a href="https://advancedconstruct.net/tags/basics/" class="btn btn--gray">Basics <sup>(2)</sup></a></li><li class="tags__item"><a href="https://advancedconstruct.net/tags/organization/" class="btn btn--gray">Organization <sup>(1)</sup></a></li><li class="tags__item"><a href="https://advancedconstruct.net/tags/productivity/" class="btn btn--gray">Productivity <sup>(2)</sup></a></li></ul></section><div class="box copyright">© Bence Fodor (Fodi). This site is not associated with Scirra Ltd. Illustrations by Google Inc., available under CC-BY-4.0 license. The site is powered by Publii &amp; GitHub Pages.</div></div></div></div></div><script defer="defer" src="https://advancedconstruct.net/assets/js/scripts.min.js?v=b2d91bcadbf5db401b76eb5bb3092eb7"></script><script>var images = document.querySelectorAll('img[loading]');
+			(function() {
+				var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+				gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+			})();</script><script type="text/javascript"></script></div></div></div></div></main><div class="right-bar"><div class="right-bar__inner"><div class="sidebar"><section class="box featured"><h3 class="box__title">Featured Posts</h3><ul class="featured__container"><li class="featured__item"><a href="https://advancedconstruct.net/introduction/" class="featured__image"><img src="https://advancedconstruct.net/media/posts/1/responsive/intro-xs.webp" loading="lazy" alt="" height="534" width="534"></a><div><a href="https://advancedconstruct.net/introduction/" class="featured__title">Introduction</a></div></li></ul></section><section class="box authors"><h3 class="box__title">About the author</h3><ul class="authors__cotainer"><li class="authors__item"><a href="https://advancedconstruct.net/authors/fodi/" class="authors__image"><img src="https://advancedconstruct.net/media/website/tea-square-600px.jpg" loading="lazy" alt="Fodi" height="600" width="600" class="authors__img"></a><div><a href="https://advancedconstruct.net/authors/fodi/" class="authors__title">Fodi</a></div></li></ul></section><section class="box tags"><h3 class="box__title">Recommended Topics</h3><ul class="tags__list"><li class="tags__item"><a href="https://advancedconstruct.net/tags/basics/" class="btn btn--gray">Basics <sup>(2)</sup></a></li><li class="tags__item"><a href="https://advancedconstruct.net/tags/organization/" class="btn btn--gray">Organization <sup>(1)</sup></a></li><li class="tags__item"><a href="https://advancedconstruct.net/tags/productivity/" class="btn btn--gray">Productivity <sup>(2)</sup></a></li></ul></section><div class="box copyright">© Bence Fodor (Fodi). This site is not associated with Scirra Ltd. Illustrations by Google Inc., available under CC-BY-4.0 license. The site is powered by Publii &amp; GitHub Pages.</div></div></div></div></div><script defer="defer" src="https://advancedconstruct.net/assets/js/scripts.min.js?v=b2d91bcadbf5db401b76eb5bb3092eb7"></script><script>var images = document.querySelectorAll('img[loading]');
         for (var i = 0; i < images.length; i++) {
             if (images[i].complete) {
                 images[i].classList.add('is-loaded');
