@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Advanced Construct</title>
-    <link href="https://ac.gamedev.kitchen/feed.xml" rel="self" />
-    <link href="https://ac.gamedev.kitchen" />
+    <link href="https://advancedconstruct.net/feed.xml" rel="self" />
+    <link href="https://advancedconstruct.net" />
     <updated>2025-08-26T17:43:42+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
-    <id>https://ac.gamedev.kitchen</id>
+    <id>https://advancedconstruct.net</id>
 
     <entry>
         <title>Using &quot;global names&quot;</title>
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/using-global-names/"/>
-        <id>https://ac.gamedev.kitchen/using-global-names/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" medium="image" />
+        <link href="https://advancedconstruct.net/using-global-names/"/>
+        <id>https://advancedconstruct.net/using-global-names/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/14/global-names-2.png" medium="image" />
             <category term="Organization"/>
 
         <updated>2025-08-13T21:56:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" alt="" />
                     <p class="msg msg--highlight ">String literals? Yuck. More typo protection, better autocompletes, enhanced usage lookups? Yes please!</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/14/global-names-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">String literals? Yuck. More typo protection, better autocompletes, enhanced usage lookups? Yes please!</p>
 
 <p>OG Construct developer <a href="https://bsky.app/profile/salmanshh.bsky.social">Salman Shurie</a> referred to the engine's event system as "super intellisense" a couple of times - turns out the phrase was coined by <a href="https://bsky.app/profile/wtfmig.bsky.social">@wtfmig</a>. Nevertheless, I think it's on point.</p>
@@ -67,22 +67,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/finding-things-in-construct/"/>
-        <id>https://ac.gamedev.kitchen/finding-things-in-construct/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" medium="image" />
+        <link href="https://advancedconstruct.net/finding-things-in-construct/"/>
+        <id>https://advancedconstruct.net/finding-things-in-construct/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/13/finding-things.png" medium="image" />
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:38:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/13/finding-things.png" alt="" />
                     <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/13/finding-things.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/13/finding-things.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
 <p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also <strong>remove results</strong> by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p>
@@ -100,22 +100,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/keyboard-mastery/"/>
-        <id>https://ac.gamedev.kitchen/keyboard-mastery/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" medium="image" />
+        <link href="https://advancedconstruct.net/keyboard-mastery/"/>
+        <id>https://advancedconstruct.net/keyboard-mastery/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/12/mouse-slow.png" medium="image" />
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:10:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" alt="" />
                     <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
 
 <p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has a very good "keyboard coverage", especially in event sheets.</p>
@@ -144,22 +144,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/backing-up-construct-projects/"/>
-        <id>https://ac.gamedev.kitchen/backing-up-construct-projects/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/11/backup.png" medium="image" />
+        <link href="https://advancedconstruct.net/backing-up-construct-projects/"/>
+        <id>https://advancedconstruct.net/backing-up-construct-projects/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/11/backup.png" medium="image" />
             <category term="Basics"/>
 
         <updated>2025-08-13T19:56:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/11/backup.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/11/backup.png" alt="" />
                     <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/11/backup.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/11/backup.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
 <p>Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider hot &amp; cold backups, automatic and manual ones, and periodically verifying backups, especially for important stuff.</p>
@@ -175,22 +175,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/setting-up-construct/"/>
-        <id>https://ac.gamedev.kitchen/setting-up-construct/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" medium="image" />
+        <link href="https://advancedconstruct.net/setting-up-construct/"/>
+        <id>https://advancedconstruct.net/setting-up-construct/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/9/setting-up.png" medium="image" />
             <category term="Basics"/>
 
         <updated>2025-08-13T19:53:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/9/setting-up.png" alt="" />
                     <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/9/setting-up.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/9/setting-up.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
 
 <p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I don't want to wonder around the Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in <strong>Chromium</strong>. I chose it because:</p>
@@ -213,29 +213,29 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://ac.gamedev.kitchen/introduction/"/>
-        <id>https://ac.gamedev.kitchen/introduction/</id>
-        <media:content url="https://ac.gamedev.kitchen/media/posts/1/intro.png" medium="image" />
+        <link href="https://advancedconstruct.net/introduction/"/>
+        <id>https://advancedconstruct.net/introduction/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/1/intro.png" medium="image" />
 
         <updated>2025-08-13T19:08:52+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ac.gamedev.kitchen/media/posts/1/intro.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/1/intro.png" alt="" />
                     <p>Hi there! Welcome to <strong>Advanced Construct</strong>, an attempt to share knowledge I gathered since Construct 3 and game development became my hobby in 2020.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ac.gamedev.kitchen/media/posts/1/intro.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/1/intro.png" class="type:primaryImage" alt="" /></p>
                 <p>Hi there! Welcome to <strong>Advanced Construct</strong>, an attempt to share knowledge I gathered since Construct 3 and game development became my hobby in 2020.</p>
 
 <p>I'm <a href="https://fodi.be" target="_blank" rel="noopener noreferrer">Fodi</a>, a millennial web developer from Hungary. My plan is to continuosly update this site with articles, and if there's traction, videos as well. Some might age like milk, some might hold up better. Instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>
 <p>I'll try to cover various Construct 3 related topics, more specifically:</p>
 <ul>
-<li><a href="https://ac.gamedev.kitchen/tags/basics/">Basics</a> to improve your developer experience (like setting up the Construct Editor, project backups, et cetera).</li>
-<li>Ways to enhance your <a href="https://ac.gamedev.kitchen/tags/productivity/">productivity</a> and development speed in Construct.</li>
-<li>Project <a href="https://ac.gamedev.kitchen/tags/organization/">organisation</a> patterns to keep things relatively clean and easier to build upon.</li>
+<li><a href="https://advancedconstruct.net/tags/basics/">Basics</a> to improve your developer experience (like setting up the Construct Editor, project backups, et cetera).</li>
+<li>Ways to enhance your <a href="https://advancedconstruct.net/tags/productivity/">productivity</a> and development speed in Construct.</li>
+<li>Project <a href="https://advancedconstruct.net/tags/organization/">organisation</a> patterns to keep things relatively clean and easier to build upon.</li>
 </ul>
 <p>If you have questions or feedback, feel free to find me in the <a href="https://discord.gg/g4g3VNsynC" target="_blank" rel="noopener noreferrer">Construct Community Discord</a> and send me a DM.</p>
             ]]>

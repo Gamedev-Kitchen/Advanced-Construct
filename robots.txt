@@ -4,4 +4,4 @@ User-agent: GPTBot
 Disallow: /
 User-agent: *
 Disallow:
-Sitemap: https://ac.gamedev.kitchen/sitemap.xml
+Sitemap: https://advancedconstruct.net/sitemap.xml
