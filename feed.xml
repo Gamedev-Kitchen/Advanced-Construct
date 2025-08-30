@@ -3,12 +3,49 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-08-26T17:43:42+02:00</updated>
+    <updated>2025-08-30T21:53:11+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://advancedconstruct.net</id>
 
+    <entry>
+        <title>Project organization</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://advancedconstruct.net/project-organization/"/>
+        <id>https://advancedconstruct.net/project-organization/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/17/project-organization.png" medium="image" />
+
+        <updated>2025-08-30T11:20:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://advancedconstruct.net/media/posts/17/project-organization.png" alt="" />
+                    <p>I'd like to cover many things on this topic, so here's a list showing which article's available and what's planned.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://advancedconstruct.net/media/posts/17/project-organization.png" class="type:primaryImage" alt="" /></p>
+                <p>I'd like to cover many things on this topic, so here's a list showing which article's available and what's planned.</p>
+
+<h2>Available</h2>
+<ul>
+<li><strong><a href="https://advancedconstruct.net/using-global-names/">Using "global names"</a></strong><br>Construct does not have enums and uses string literals in some places where an enum would be more convenient. Here's a way to get almost all benefits of enums.</li>
+</ul>
+<h2>Planned</h2>
+<ul>
+<li><strong>Sheet management</strong><br>A system composed of top level or "main" sheets, action sheets, function sheets, value sheets and <span style="text-decoration: underline;">actual</span> event sheets :)</li>
+<li><strong>Object &amp; family conventions</strong><br>Naming and grouping, typical hierarchies, instance variable and custom action usage</li>
+<li><strong>Global object(s)</strong><br>Also known as the level or game manager object, a singleton, or autoload in Godot-land. I use it to keep state between layouts, run timers and value tweens not related to objects and a few other minor things.</li>
+<li><strong>Code reuse and structuring</strong><br>How and when I use functions, custom actions and event groups.</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Using &quot;global names&quot;</title>
         <author>
@@ -35,9 +72,9 @@
 <p>OG Construct developer <a href="https://bsky.app/profile/salmanshh.bsky.social">Salman Shurie</a> referred to the engine's event system as "super intellisense" a couple of times - turns out the phrase was coined by <a href="https://bsky.app/profile/wtfmig.bsky.social">@wtfmig</a>. Nevertheless, I think it's on point.</p>
 <p>When you're using the event system (and no JS/TS code), you can't mistype names of variables, constants, behaviours, objects, families or functions, because the editor simply won't let you. You can also rename any of these without worrying about breaking code, Construct automatically updates all references to reflect the name change (again, as long as they are not mentioned in JS/TS code). If you're using the paid version, the editor can also find all usages of variables, constants, objects and family members. It's an amazing tool and I use it countless times during development.</p>
 <p>There are some things you can still mistype, since they are not structured as identifiers, but strings. Layer names, animation names, effect names, various tags (for tweens, timers, sounds, et cetera) can be entered as string literals. Construct tries to suggest them, but you can still make a typo and you don't get usage finding. And if you decide to rename a layer, animation, effect or any sort of tag, you'll have to manually search for it and change it manually by hand which is tedious and error prone.</p>
-<p>My solution is to create global constants (which are identifiers) and use them instead of string literals. This way you get typo protection, usage lookups and renaming things is a lot easier once you resist the urge to use string literals in those cases. Granted, there's an extra step (creating a global constant), but I think it's worth the extra features.</p>
-<p>I put the "global name" constants in an event sheet called <code>vNames</code>. Since it only contains variables, it's automatically "included" in all events sheets, so you don't have to worry about importing it. (By the way the same goes for functions and custom actions too; only sheets containing events have to be included to run.)</p>
-<p>You can apply a naming convention on the global "name" constants to signify their "kind", eg:</p>
+<p>Rather than doing that, you can create global constants (which are identifiers) and use them instead of string literals. This way you get typo protection, usage lookups and renaming things is a lot easier once you resist the urge to use string literals in those cases. Granted, there's an extra step (creating a global constant), but I think it's worth the effort.</p>
+<p>In my projects I put all "global name" constants in an event sheet called <code>vNames</code>. Since it only contains variables, it's automatically "included" in all events sheets, so you don't have to worry about importing it. (By the way the same goes for functions and custom actions too; only sheets containing events have to be included to run.)</p>
+<p>You can also apply a naming convention on the global "name" constants to signify their "kind", eg:</p>
 <ul>
 <li><code>LAYER_Main = "Main"</code> (value matches the layer name)</li>
 <li><code>TIMER_Invincibility = "Invincibility"</code> (timer tag)</li>
@@ -118,7 +155,7 @@
                     <p><img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="" /></p>
                 <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
 
-<p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has a very good "keyboard coverage", especially in event sheets.</p>
+<p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has very good "keyboard coverage", especially in event sheets.</p>
 <p>I find that switching between keyboard and mouse slows me down and doesn't help with my flow either, so I re-read the list of keyboard shortcuts in the official docs from time to time and try incorporating more of them in my workflow.</p>
 <p>You can <a href="https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts">check out the list of Construct's keyboard shortcuts here</a>, and you might want to bookmark it too while you're there. I highly recommend starting with the shortcuts for the event sheet view, but if you spend a lot of time in the animation editor, those shortcuts come super handy as well.</p>
 <p>Moving the cursor (or selection) via keyboard in event sheets might be a bit awkward at first, but I think it's worth the effort to learn it.</p>
