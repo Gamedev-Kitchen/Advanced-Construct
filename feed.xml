@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-09-19T18:03:29+02:00</updated>
+    <updated>2025-09-19T18:08:04+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -34,15 +34,15 @@
 
 <p>What is an event sheet? A sheet that contains events, right? But what if there is a sheet that only has global variables / constants? Or one containing functions exclusively? Or custom actions, for that matter.</p>
 <p>In the last few years I've been using a system that involves having top level event sheets and four subfolders, one for sheets with custom actions, one for sheets with functions, one for sheets with global values (variables and constants) and one for actual event sheets. The subfolders are named <strong>Actions</strong>, <strong>Events</strong>, <strong>Functions </strong>and <strong>Values</strong>, all sheets in the subfolders are prefixed with the letters "a", "e", "f" and "v" respectively, so it's easier to navigate the open tabs.</p>
-<p>In this article I go through the details of this setup (with some sidenotes here and there). I have a <a href="https://github.com/fodi/construct-3-projects/raw/refs/heads/main/projectfiles/BlankTemplate.c3p">blank project template that you can download</a> with the folders and most commonly used event sheets (most of them empty, prefixed with an underscore).</p>
-<p>A slightly weird thing I also like to do is to add emojis at the end of event sheet names. They act a bit like icons and when I have a lot of tabs open, it's easier for me to find the one I'm looking for. The emojis also signify that the tab is in fact an event sheet, and not a layout.</p>
+<p>In this article I go through the details of this setup (with some sidenotes here and there). I have a <a href="https://github.com/fodi/construct-3-projects/raw/refs/heads/main/projectfiles/BlankTemplate.c3p">blank project template that you can download</a> with the folders and most commonly used event sheets (most of them are empty, prefixed with an underscore).</p>
+<p>A slightly weird thing I also like to do is to add emojis at the end of event sheet names. They act a bit like icons, so when I have a lot of tabs open, it's easier for me to find the one I'm looking for. Emojis also signify the fact that the tabs is an event sheet, and not a layout.</p>
 <p>Okay, let's dive in!</p>
 <h2>Top level sheets</h2>
 <p>Sheets on the top level are assigned to at least one layout. When I'm prototyping, I usually start dumping everything in a top level event sheet, then organize it later by moving everything to other sheets. I like to go fast and do periodic clean-ups after things are in a working state.</p>
 <p>For simpler layouts (eg. the crappy low effort menus that I usually make for jam games and prototypes), I just put all events in a top level sheet, since there aren't too many anyway.</p>
 <p>For complex ones (like levels) I create a top level event sheet (eg. <code>Level 🗺️</code>) and only put event sheet includes in it, nothing else. There's no need to include sheets that only contain functions, global variables or custom actions, as those are all globally available by default. <span style="text-decoration: underline;">Actual</span> event sheets have to be included in top level event sheets though.</p>
 <h2>Actions folder</h2>
-<p>This folder is for sheets with custom actions only, one sheet per object type or family) The sheet's names match the object or family name, prefixed with the letter "a" and suffixed with an emoji, eg. <code>aPlayer 🧑</code>, <code>aEnemy 👾</code>, etc.</p>
+<p>This folder is for sheets with custom actions only, one sheet per object type (or family). The sheet's names match the object or family name, prefixed with the letter "a" and suffixed with an emoji, eg. <code>aPlayer 🧑</code>, <code>aEnemy 👾</code>, etc.</p>
 <p>Common custom actions include <code>spawn</code> (which spawns an instance of its object type or family) and <code>tick</code> (which is usually called at every tick and does various things with the instance). If a game has players, and enemies with health, I usually have one called <code>changeHealth</code> on both object types which is called when an instance is damaged or healed. This action takes care of changing the health instance variable, doing audio and visual feedback based on the change, checking if health is zero and doing the destruction of the instance, if needed.</p>
 <h2>Events folder</h2>
 <p>This folder is for <span style="text-decoration: underline;">actual</span> event sheets, only containing events (sometimes enclosed in groups). These sheets have to be included in at least one top level event sheet in order to work (unlike <strong>function</strong>, <strong>action</strong> and <strong>value</strong> sheets). I never put any global variables, constants, custom actions or functions in these sheets.</p>
