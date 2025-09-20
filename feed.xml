@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-09-19T18:08:04+02:00</updated>
+    <updated>2025-09-20T13:15:24+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -157,10 +157,10 @@
 <h2>Available</h2>
 <ul>
 <li><strong><a href="https://advancedconstruct.net/using-global-names/">Using "global names"</a></strong><br>Construct does not have enums and uses string literals in some places where an enum would be more convenient. Here's a way to get almost all benefits of enums.</li>
+<li><strong><a href="https://advancedconstruct.net/sheet-management/">Sheet management</a></strong><br>A system composed of top level or "main" sheets, action sheets, function sheets, value sheets and <span style="text-decoration: underline;">actual</span> event sheets.</li>
 </ul>
 <h2>Planned</h2>
 <ul>
-<li><strong>Sheet management</strong><br>A system composed of top level or "main" sheets, action sheets, function sheets, value sheets and <span style="text-decoration: underline;">actual</span> event sheets :)</li>
 <li><strong>Object &amp; family conventions</strong><br>Naming and grouping, typical hierarchies, instance variable and custom action usage</li>
 <li><strong>Global object(s)</strong><br>Also known as the level or game manager object, a singleton, or autoload in Godot-land. I use it to keep state between layouts, run timers and value tweens not related to objects and a few other minor things.</li>
 <li><strong>Code reuse and structuring</strong><br>How and when I use functions, custom actions and event groups.</li>
