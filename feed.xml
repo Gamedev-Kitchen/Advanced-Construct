@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-09-20T13:15:24+02:00</updated>
+    <updated>2025-09-21T11:02:04+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -22,14 +22,14 @@
         <updated>2025-09-16T19:06:36+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/20/event-sheets.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/20/event-sheets.png" alt="Illustration: a chicken sitting on a bunch of books" />
                     <p class="msg msg--highlight ">An article on function sheets, action sheets, value sheets, top level sheets... oh, and event sheets of course. And emojis.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/20/event-sheets.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/20/event-sheets.png" class="type:primaryImage" alt="Illustration: a chicken sitting on a bunch of books" /></p>
                 <p class="msg msg--highlight ">An article on function sheets, action sheets, value sheets, top level sheets... oh, and event sheets of course. And emojis.</p>
 
 <p>What is an event sheet? A sheet that contains events, right? But what if there is a sheet that only has global variables / constants? Or one containing functions exclusively? Or custom actions, for that matter.</p>
@@ -113,14 +113,14 @@
         <updated>2025-09-01T21:29:50+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" alt="Illustration: a parachuting filing cabinet drawer full of files" />
                     <p>I have some free template &amp; example projects, all available under the MIT license.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" class="type:primaryImage" alt="Illustration: a parachuting filing cabinet drawer full of files" /></p>
                 <p>I have some free template &amp; example projects, all available under the MIT license.</p>
 
 <p>You can find a list of projects and demos here:<br><a href="https://fodi.github.io/construct-3-projects/">https://fodi.github.io/construct-3-projects</a></p>
@@ -144,14 +144,14 @@
         <updated>2025-08-30T11:20:29+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/17/project-organization.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/17/project-organization.png" alt="Illustration: an octopus holding a bunch of books in its tentacles" />
                     <p>I'd like to cover many things on this topic, so here's a list showing which article's available and what's planned.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/17/project-organization.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/17/project-organization.png" class="type:primaryImage" alt="Illustration: an octopus holding a bunch of books in its tentacles" /></p>
                 <p>I'd like to cover many things on this topic, so here's a list showing which article's available and what's planned.</p>
 
 <h2>Available</h2>
@@ -182,14 +182,14 @@
         <updated>2025-08-13T21:56:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" alt="Illustration: a clipboard showing a list of three items each with a roll of string, and a big green checkmark" />
                     <p class="msg msg--highlight ">String literals? Yuck. More typo protection, better autocompletes, enhanced usage lookups? Yes please!</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" class="type:primaryImage" alt="Illustration: a clipboard showing a list of three items each with a roll of string, and a big green checkmark" /></p>
                 <p class="msg msg--highlight ">String literals? Yuck. More typo protection, better autocompletes, enhanced usage lookups? Yes please!</p>
 
 <p>OG Construct developer <a href="https://bsky.app/profile/salmanshh.bsky.social">Salman Shurie</a> referred to the engine's event system as "super intellisense" a couple of times - turns out the phrase was coined by <a href="https://bsky.app/profile/wtfmig.bsky.social">@wtfmig</a>. Nevertheless, I think it's on point.</p>
@@ -235,14 +235,14 @@
         <updated>2025-08-13T20:38:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/13/finding-things.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/13/finding-things.png" alt="Illustration: a cartoonish private inspector character with big eyes holding a magnifying glass" />
                     <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/13/finding-things.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/13/finding-things.png" class="type:primaryImage" alt="Illustration: a cartoonish private inspector character with big eyes holding a magnifying glass" /></p>
                 <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
 
 <p>Like in most development environments you can <strong>perform a text search</strong> by pressing <em>Ctrl</em> + <em>F</em>. Construct allows you to specify the scope of your search, toggle case sensitivity and you can even perform a second search to further filter down search results, which is especially handy when you have a lot of them. You can also <strong>remove results</strong> by selecting them and pressing <em>Delete</em> (re-running the search will bring them back).</p>
@@ -268,14 +268,14 @@
         <updated>2025-08-13T20:10:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" alt="Illustration: a cartoon creature that is a snail with the head of a mouse" />
                     <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" class="type:primaryImage" alt="Illustration: a cartoon creature that is a snail with the head of a mouse" /></p>
                 <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
 
 <p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has very good "keyboard coverage", especially in event sheets.</p>
@@ -312,14 +312,14 @@
         <updated>2025-08-13T19:56:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/11/backup.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/11/backup.png" alt="Illustration: a big floppy disk emerging from behind mountains with sun rays behind it" />
                     <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/11/backup.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/11/backup.png" class="type:primaryImage" alt="Illustration: a big floppy disk emerging from behind mountains with sun rays behind it" /></p>
                 <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
 
 <p>Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider hot &amp; cold backups, automatic and manual ones, and periodically verifying backups, especially for important stuff.</p>
@@ -343,14 +343,14 @@
         <updated>2025-08-13T19:53:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/9/setting-up.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/9/setting-up.png" alt="Illustration: a sealed cardboard box with a low res space invader character printed on it" />
                     <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/9/setting-up.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/9/setting-up.png" class="type:primaryImage" alt="Illustration: a sealed cardboard box with a low res space invader character printed on it" /></p>
                 <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
 
 <p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I don't want to wonder around the Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in <strong>Chromium</strong>. I chose it because:</p>
@@ -380,14 +380,14 @@
         <updated>2025-08-13T19:08:52+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advancedconstruct.net/media/posts/1/intro.png" alt="" />
+                        <img src="https://advancedconstruct.net/media/posts/1/intro.png" alt="Illustration: a cartoon goose saluting" />
                     <p>Hi there! Welcome to <strong>Advanced Construct</strong>, an attempt to share knowledge I gathered since Construct 3 and game development became my hobby in 2020.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advancedconstruct.net/media/posts/1/intro.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advancedconstruct.net/media/posts/1/intro.png" class="type:primaryImage" alt="Illustration: a cartoon goose saluting" /></p>
                 <p>Hi there! Welcome to <strong>Advanced Construct</strong>, an attempt to share knowledge I gathered since Construct 3 and game development became my hobby in 2020.</p>
 
 <p>I'm <a href="https://fodi.be" target="_blank" rel="noopener noreferrer">Fodi</a>, a millennial web developer from Hungary. My plan is to continuosly update this site with articles, and if there's traction, videos as well. Some might age like milk, some might hold up better. Instead of procrastinating or spending too much time with editing, I'm just going to post things.</p>
