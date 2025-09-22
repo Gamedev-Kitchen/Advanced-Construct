@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-09-22T17:03:52+02:00</updated>
+    <updated>2025-09-22T17:23:42+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -131,8 +131,8 @@
                 <p>I have some free template &amp; example projects, all available under the MIT license.</p>
 
 <p>You can find a list of projects and demos here:<br><a href="https://fodi.github.io/construct-3-projects/">https://fodi.github.io/construct-3-projects</a></p>
-<p>The source code for the projects are in this monorepo inside the `projectfolders` folder:<br><a href="https://github.com/fodi/construct-3-projects">https://github.com/fodi/construct-3-projects</a></p>
-<p>I also have some open source projects hosted on Itch.io, you can find them in this collection:<br><a href="https://itch.io/c/6291129/fodis-open-source-projects">https://itch.io/c/6291129/fodis-open-source-projects</a></p>
+<p>You can grab the source files from this monorepo:<br><a href="https://github.com/fodi/construct-3-projects">https://github.com/fodi/construct-3-projects</a></p>
+<p>I also have some example &amp; experimental projects hosted on Itch.io, you can find them in this collection:<br><a href="https://itch.io/c/6291129/fodis-open-source-projects">https://itch.io/c/6291129/fodis-open-source-projects</a></p>
 <p>Have fun!</p>
 <p>If you find any of them useful, and would like to <a href="https://buymeacoffee.com/fodi" target="_blank" rel="noopener noreferrer">buy me a coffee</a>, you can :)</p>
             ]]>
