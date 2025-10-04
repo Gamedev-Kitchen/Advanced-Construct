@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-09-26T15:22:28+02:00</updated>
+    <updated>2025-10-04T23:56:02+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -51,7 +51,7 @@
 <ul>
 <li><code>eCollisions 💥</code> for "On collision with another object" events only. I used to put overlap checks in here too, but nowadays I usually do those inside <code>tick</code> custom actions instead (and other non-trigger events too). I find it very handy to have all collision checks in a single sheet.</li>
 </ul>
-<p class="msg msg--info"><strong>Sidenote<br></strong>When setting up collision checks, I try to set the first object to the one that (probably) has fewer instances in a layout, and the second to the one that (probably) has more. I read somewhere that this has better performance.</p>
+<p class="msg msg--info"><strong>Sidenote<br></strong>When setting up collision checks, I try to set the first object to the one that (probably) has fewer instances in a layout, and the second to the one that (probably) has more. I read somewhere that this has better performance. Also don't forget to set a reasonable collision cell size for your layout, the default is usually way too big.</p>
 <ul>
 <li><code>eCreated ✨</code> for "On created" events only, and only for object types / families that have instances on a layout at start, not ones that are dynamically spawned during runtime. In the former case, I usually make an <code>init</code> custom action which initializes the object and call it from the "On created" event.<br>If an object type only spawns dynamically during runtime, I usually have a <code>spawn</code> custom action for it, which takes care of the spawning and any initialization as well. I keep at least one instance of dynamically spawned objects is in a "repository layout" - nowadays I name it <code>@ Templates</code>. Most official examples have one called <code>ObjectRespository</code>.</li>
 <li><code>eTimers ⏰</code> for "On timer" events only.</li>
