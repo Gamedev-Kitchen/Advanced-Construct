@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-10-17T18:29:07+02:00</updated>
+    <updated>2025-10-17T18:52:13+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -146,6 +146,7 @@
 <li><a href="https://www.construct.net/en/users/198994/skymen/tutorials">Construct 3 tutorials by Skymen</a></li>
 <li><a href="https://www.youtube.com/@XanderwoodGameDev">Construct 3 video tutorials by Xanderwood</a></li>
 <li><a href="https://www.youtube.com/@gamedesignwithreilly">GameDesign With Reilly (video tutiorials)</a></li>
+<li><a href="https://www.youtube.com/@FoozleCC/videos">Construct 3 tutorials and showcase videos by Foozle</a></li>
 </ul>
 <h2>Tools</h2>
 <ul>
@@ -163,21 +164,8 @@
 </ul>
 <h2>Services</h2>
 <ul>
-<li>Free(mium) webhosting services for HTML5 builds
-<ul>
-<li><a href="https://docs.github.com/en/pages">GitHub Pages</a></li>
-<li><a href="https://docs.gitlab.com/user/project/pages/">GitLab Pages</a></li>
-<li><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></li>
-<li><a href="https://vercel.com/">Vercel</a></li>
-</ul>
-</li>
-<li>Game porting services
-<ul>
-<li><a href="https://mp2.dk/">MP2 Games</a></li>
-<li><a href="https://ratalaikagames.com/">Ratalaika Games</a></li>
-<li><a href="https://www.seaven-studio.com/">Seaven Studio</a></li>
-</ul>
-</li>
+<li>Free(mium) webhosting services for HTML5 builds:<br><a href="https://itch.io/">Itch.io</a>, <a href="https://gamejolt.com/">GameJolt</a>, <a href="https://docs.github.com/en/pages" style="font-size: inherit;">GitHub Pages</a>, <a href="https://docs.gitlab.com/user/project/pages/" style="font-size: inherit;">GitLab Pages</a>, <a href="https://pages.cloudflare.com/" style="font-size: inherit;">Cloudflare Pages</a>, <a href="https://vercel.com/" style="font-size: inherit;">Vercel</a>, <a href="https://www.netlify.com/">Netlify</a>, <a href="https://surge.sh/">Surge</a></li>
+<li>Game porting services:<br><a href="https://mp2.dk/">MP2 Games</a>, <a href="https://ratalaikagames.com/">Ratalaika Games</a>, <a href="https://www.seaven-studio.com/">Seaven Studio</a></li>
 </ul>
             ]]>
         </content>
