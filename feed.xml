@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-10-17T13:13:13+02:00</updated>
+    <updated>2025-10-17T13:25:34+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -127,14 +127,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/21/construct-links.png" alt="" />
-                    <p>If you're a Construct developer, check out these neat resources made by the community. Tutorials, tips, optimisation, 3rd party tools, et cetera.</p>
+                    <p>If you're a Construct developer, check out these neat resources made by the community. Tutorials, tips, optimisation techniques, 3rd party tools, et cetera.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://advancedconstruct.net/media/posts/21/construct-links.png" class="type:primaryImage" alt="" /></p>
-                <p>If you're a Construct developer, check out these neat resources made by the community. Tutorials, tips, optimisation, 3rd party tools, et cetera.</p>
+                <p>If you're a Construct developer, check out these neat resources made by the community. Tutorials, tips, optimisation techniques, 3rd party tools, et cetera.</p>
 
 <h2>Learning resources</h2>
 <ul>
