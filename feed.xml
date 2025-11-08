@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-10-29T13:33:50+01:00</updated>
+    <updated>2025-11-08T11:33:31+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Links"/>
 
         <updated>2025-10-16T21:57:54+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/22/gamedev-links.png" alt="" />
                     <p>A collection of links for practising and future game developers. Engines and art software, learning resources, assets, project management tools, services, et cetera.</p>
@@ -93,6 +93,7 @@
 <li><a href="https://www.fontspace.com/">FontSpace</a> and <a href="https://fonts.google.com/">Google Fonts</a>: free and mostly permissively licensed fonts.</li>
 <li><a href="https://gwfh.mranftl.com/fonts">Google Webfonts Helper</a>: alternative Google Fonts frontend for downloading fonts in specific formats (woff, woff2, ttf, otf, eot, svg).</li>
 <li><a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a>: a repository of free nad permissively licensed 2D, 3D, vector graphics, sound and music assets.</li>
+<li><a href="https://game-icons.net/">Game-icons.net</a>: a huge collection of two-color SVG icons available under CC-BY 3.0 license.</li>
 </ul>
 <h2 id="mcetoc_1ilgrsioa1k">Project management &amp; collaboration</h2>
 <ul>
@@ -125,7 +126,7 @@
             <category term="Links"/>
 
         <updated>2025-10-12T22:38:06+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/21/construct-links.png" alt="" />
                     <p>If you're a Construct developer, check out these neat resources made by the community. Tutorials, tips, optimisation techniques, 3rd party tools, et cetera.</p>
@@ -182,7 +183,7 @@
             <category term="Organization"/>
 
         <updated>2025-09-16T19:06:36+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/20/event-sheets.png" alt="Illustration: a chicken sitting on a bunch of books" />
                     <p class="msg msg--highlight ">An article on function sheets, action sheets, value sheets, top level sheets... oh, and event sheets of course. And emojis.</p>
@@ -281,7 +282,7 @@
         <media:content url="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" medium="image" />
 
         <updated>2025-09-01T21:29:50+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/18/downloadable-projects.png" alt="Illustration: a parachuting filing cabinet drawer full of files" />
                     <p>I have some free template &amp; example projects, all available under the MIT license.</p>
@@ -312,7 +313,7 @@
             <category term="Organization"/>
 
         <updated>2025-08-13T21:56:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/14/global-names-2.png" alt="Illustration: a clipboard showing a list of three items each with a roll of string, and a big green checkmark" />
                     <p class="msg msg--highlight ">String literals? Yuck. More typo protection, better autocompletes, enhanced usage lookups? Yes please!</p>
@@ -365,7 +366,7 @@
             <category term="Organization"/>
 
         <updated>2025-08-13T21:20:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/17/project-organization.png" alt="Illustration: an octopus holding a bunch of books in its tentacles" />
                     <p>I'd like to cover many things on this topic, so here's a list showing which article's available and what's planned.</p>
@@ -403,7 +404,7 @@
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:38:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/13/finding-things.png" alt="Illustration: a cartoonish private inspector character with big eyes holding a magnifying glass" />
                     <p class="msg msg--highlight ">Let's take a look at the tools in Construct that let you find stuff.</p>
@@ -436,7 +437,7 @@
             <category term="Productivity"/>
 
         <updated>2025-08-13T20:10:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/12/mouse-slow.png" alt="Illustration: a cartoon creature that is a snail with the head of a mouse" />
                     <p class="msg msg--highlight ">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>
@@ -480,7 +481,7 @@
             <category term="Basics"/>
 
         <updated>2025-08-13T19:56:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/11/backup.png" alt="Illustration: a big floppy disk emerging from behind mountains with sun rays behind it" />
                     <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
@@ -511,7 +512,7 @@
             <category term="Basics"/>
 
         <updated>2025-08-13T19:53:00+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://advancedconstruct.net/media/posts/9/setting-up.png" alt="Illustration: a sealed cardboard box with a low res space invader character printed on it" />
                     <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
