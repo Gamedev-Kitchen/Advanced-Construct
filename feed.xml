@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-11-18T10:59:48+01:00</updated>
+    <updated>2025-11-18T12:04:50+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -165,6 +165,7 @@
 </li>
 <li><a href="https://fodi.github.io/construct-3-projects/ConstructColorConverter/">Construct Color Converter by Fodi</a>: batch convert hexadecimal RGB palettes into Construct 3 color values &amp; global constant declarations</li>
 <li><a href="https://store.pixelperfectstudio.mx/shop/">Construct 3 addons by Pixel Perfect Studios</a></li>
+<li><a href="https://skymen.github.io/construct-shader-graph/">Construct Shader Graph by Skymen</a>: a node based visual shader editor with WebGL 1, WebGL 2 and WebGPU support.</li>
 </ul>
 <h2>Services</h2>
 <ul>
