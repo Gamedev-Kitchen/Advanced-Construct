@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-11-14T13:49:13+01:00</updated>
+    <updated>2025-11-18T10:59:48+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -58,7 +58,7 @@
 <li><a href="https://ctjs.rocks">Ct.js</a>: open source 2D engine and development environment. Has a block based no-code interface called Catnip, or you can use JavaScript to code your game.</li>
 <li><a href="https://twinery.org">Twine</a>: open source engine for making interactive fiction games. Runs in the browser, requires no coding, but it can be extended with CSS and JavaScript.</li>
 <li><a href="https://bitsy.org">Bitsy</a>: open source 2D no-code engine for making retro games.</li>
-<li><a href="https://ctjs.itch.io/whimsy" target="_blank" rel="noopener noreferrer">Whimsy</a>: free 2D no-code engine inspired by Bitsy. It has browser based and downloadable versions as well.</li>
+<li><a href="https://whimtale.com/" target="_blank" rel="noopener noreferrer">Whimtale</a>: free 2D no-code engine inspired by Bitsy. It has browser based and downloadable versions as well.</li>
 <li><a href="https://rpginabox.com">RPG in a Box</a>: very fairly priced 2D/3D engine and editor primarily for making RPG games. It has a no-code interface with optional scripting support with its own Bauxite language.</li>
 <li><a href="https://www.rpgmakerweb.com/">RPG Maker</a> MZ / MV / VX / XP / etc: a family of 2D no-code engines for making RPGs. Requires a one time purchase, but most versions have 30 day free trials available.</li>
 <li><a href="https://store.steampowered.com/app/1066860/RPG_Paper_Maker/" target="_blank" rel="noopener noreferrer">RPG Paper Maker</a>: open source 2.5D engine inspired by RPG Maker. Its free for non-commercial use, making commercial games requires a fairly priced lifetime license.</li>
