@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-12-23T17:01:31+01:00</updated>
+    <updated>2025-12-23T17:36:10+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -529,14 +529,14 @@
                     <p><img src="https://advancedconstruct.net/media/posts/9/setting-up.png" class="type:primaryImage" alt="Illustration: a sealed cardboard box with a low res space invader character printed on it" /></p>
                 <p class="msg msg--highlight ">There's more then one way to install Construct. Are you using the most convenient one?</p>
 
-<p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nut and I don't want to wonder around the Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in <strong>Chromium</strong>. I chose it because:</p>
+<p>Even though my daily driver is Mozilla Firefox (because I'm an intermediate privacy nerd and I don't want to wonder around the Internet without <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">an uncrippled version of uBlock Origin</a>), I run Construct in <strong>Chromium</strong>. I chose it because:</p>
 <ul>
-<li>Chromium seems to run games with better performance compared to Firefox. The difference is especially apparent in 3D games, but most of my 2D games also have better frame rates on Chromium based browsers.</li>
-<li>I can install Construct as a <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" title="progressive web app" target="_blank" rel="noopener noreferrer">PWA</a> with it, which comes with a launcher icon, more screen space and .c3p file association which is neat. It almost feels like a native app.</li>
+<li>Chromium seems to run games with better performance in general compared to Firefox. The difference is especially apparent in 3D games, but most of my 2D games also have better frame rates on Chromium based browsers. Firefox doesn't support PWA "installation" or local folder editing at the time of writing.</li>
+<li>I can install Construct as a <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" title="progressive web app" target="_blank" rel="noopener noreferrer">PWA</a> with Chromium, which comes with a launcher icon, more screen space and .c3p file association which is neat. It almost feels like a native app.</li>
 <li>Google Chrome and Microsoft Edge are <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers" target="_blank" rel="noopener noreferrer">very popular browsers</a> and are both based on Chromium (as are Opera and Brave). If something is not working in Chromium, there's a good chance it won't work in Chrome, Edge, Opera or Brave either.</li>
 <li>Chromium is open source and doesn't push Google crap, Microsoft crap or cryptocurrencies (at the time of writing).</li>
 </ul>
-<p class="msg msg--info"><strong>Sidenote</strong><br>I use the <a href="https://github.com/Hibbiki/chromium-win64/">Chromium build by Hibbiki</a>, which I installed and keep updated with <a href="https://scoop.sh/">scoop</a>. Other alternatives include the <a href="https://chromium.woolyss.com/">Woolyss build</a> and <a href="https://github.com/ungoogled-software/ungoogled-chromium">Ungoogled Chromium</a>. I personally don't mind the small amount of Google stuff in the build I use, especially because I barely use it for anything other then running Construct.</p>
+<p class="msg msg--info"><strong>Sidenote</strong><br>I used the <a href="https://github.com/Hibbiki/chromium-win64/">Chromium build by Hibbiki</a> for years, I switched to <a href="https://github.com/ungoogled-software/ungoogled-chromium">Ungoogled Chromium</a> in 2025, which I installed and keep updated with <a href="https://scoop.sh/">scoop</a>. Other alternatives include the <a href="https://chromium.woolyss.com/">Woolyss build</a>, and some people prefer Edge (which apparently has more generous memory limits)<a href="https://github.com/ungoogled-software/ungoogled-chromium"></a>.</p>
 <p>If you don't have concerns about Google Chrome, Microsoft Edge, Opera or Brave, just use any of them, Construct should run well in all of them.</p>
 <p>On Windows 10 and newer you also have the option to install <a href="https://www.microsoft.com/store/productId/9NBZ6CP2P37P" target="_blank" rel="noopener noreferrer">Construct 3 from the Microsoft Store</a>; I'm guessing it's a similar experience to installing the PWA with Microsoft Edge.</p>
 <p>When you open the Construct editor for the first time, it immediately starts downloading the necessary files for offline use and will let you know via a notification in the bottom left when it's ready.</p>
