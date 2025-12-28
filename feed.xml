@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-12-27T19:36:44+01:00</updated>
+    <updated>2025-12-28T17:56:13+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -35,7 +35,7 @@
                 <p class="msg msg--highlight ">Development principles, practices, patterns and anti-patterns as seen by a random Construct 3 developer (me).</p>
 
 <p>I've been using Construct 3 for about 5 years now. So far I've made over 30 jam games, countless experiments and prototypes as a hobbyist. Between 2023 and 2024 I built about a dozen smaller scope browser games for various clients, so I guess I can call myself a professional game developer, but I haven't done a "proper" game release on Steam or other big platforms. Although it will probably happen in the future, I have no short term plans to start working on one.</p>
-<p>In this article I attempt to summarize the principles and practices I try to apply as a Construct developer. They seem to work well for me, your mileage may vary.</p>
+<p>In this article I attempt to summarise the principles and practices I try to apply as a Construct developer. They seem to work well for me, your mileage may vary.</p>
 <h2>Processes</h2>
 <ul>
 <li><strong>Prototype, clean up, repeat.<br></strong>I'm a big fan of <a href="https://www.youtube.com/watch?v=WtDPNoVGZIw">iterative development</a>, but if there's intention to grow the project into something sustainable, periodic clean-ups and refactors are key. Nobody nails everything for the first time, especially while experimenting with different things instead of following a well thought out "recipe". Even if you are, things might turn out to be duds that need to be removed or replaced and usually leave some spaghetti behind. Or hastily coded experiments turn out to be amazing and need to be kept around and built upon. Usually I do clean-ups every third or fourth session on most projects. This is also when I get rid of the sea of "todo" comments I made during development, to mark the bit that need to be refactored, fixed or optimised.</li>
@@ -64,6 +64,7 @@
 </li>
 <li><strong>Use folders to group elements of your project.</strong><br>Object types, event sheets, files, et cetera – especially if you have a lot of them, so they're easier to locate compared to the default alphabetised list.</li>
 <li><strong>Use a level and/or game manager object instead of global variables where appropriate.</strong><br>Resetting global variables can be a pain if some of them need to be kept. Destroying and recreating a global object is easier and it also helps to separate level or game state variables from miscellaneous stuff.</li>
+<li><strong>Use the keyboard as much as possible in event sheets.</strong><br>Switching between mouse and keyboards slows me down quite a bit and I prefer the keyboard for programming. Construct as excellent search and autocomplete coverage, you can create events, variables, functions, custom action, groups, code snippets without using your mouse.</li>
 </ul>
 <h2>Development anti-patterns</h2>
 <p>Some of these are heavily influenced by the fact that I prefer keyboard navigation in event sheets and I use "find all references" a lot to get around a project.</p>
@@ -259,6 +260,7 @@
 <li><a href="https://skymen.github.io/construct-shader-graph/">Construct Shader Graph by Skymen</a>: a node based visual shader editor with WebGL 1, WebGL 2 and WebGPU support.</li>
 <li><a href="https://gwfh.mranftl.com/fonts">Google Webfonts Helper</a>: for downloading free font files from Google Fonts in any format (including TTF)</li>
 <li><a href="https://comigo.itch.io/placeholder-gen">CoMiGo's Placeholder Generator</a>: a simple, free and engine-agnostic placeholder sprite generator, great for grayboxing.</li>
+<li><a href="https://github.com/bryc/code/blob/master/jshash/PRNGs.md">Javascript PRNGs</a>: public domain code for various seed generators, seeded PRNGs and hashing functions. Can be useful for making games with procedurally generated content.</li>
 </ul>
 <h2>Services</h2>
 <ul>
