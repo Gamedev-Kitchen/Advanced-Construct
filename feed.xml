@@ -3,34 +3,12 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-12-28T19:53:09+01:00</updated>
+    <updated>2025-12-28T17:56:13+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://advancedconstruct.net</id>
 
-    <entry>
-        <title>Procedural generation cheat sheet</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://advancedconstruct.net/procedural-generation-cheat-sheet/"/>
-        <id>https://advancedconstruct.net/procedural-generation-cheat-sheet/</id>
-            <category term="Links"/>
-
-        <updated>2025-12-28T19:53:09+01:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    If you're looking to use procedural generation in your game, you'll probably want to look into seeded PRNGs, noise functions,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>If you're looking to use procedural generation in your game, you'll probably want to look into seeded PRNGs, noise functions, predefined chunk based generation, labyrinths, pathfinding, cave or room layout generation, wave function collapse, shape packing, hexagonal maps, to just name a few. Many of my favourite Wikipedia rabbit holes started from these :).<br><br>Here are some of my favourite resources on the topic. Most of them are not specific for Construct developers, but all of them can be implemented in or integrated into Construct (written in JavaScript / TypeScript / WebAssembly).</p>
-<h2>Seeded pseudorandom number generators</h2>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>My Construct Cookbook (2025)</title>
         <author>
@@ -587,6 +565,37 @@
 <li><em>Ctrl</em> + <em>W</em> to close a tab (including Construct, careful :), add <em>Shift</em> to close all tabs in the current window</li>
 <li><em>Ctrl</em> + <em>Shift</em> + <em>I</em> to open developer tools</li>
 </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Backing up Construct projects</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://advancedconstruct.net/backing-up-construct-projects/"/>
+        <id>https://advancedconstruct.net/backing-up-construct-projects/</id>
+        <media:content url="https://advancedconstruct.net/media/posts/11/backup.png" medium="image" />
+            <category term="Basics"/>
+
+        <updated>2025-08-13T19:56:00+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://advancedconstruct.net/media/posts/11/backup.png" alt="Illustration: a big floppy disk emerging from behind mountains with sun rays behind it" />
+                    <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://advancedconstruct.net/media/posts/11/backup.png" class="type:primaryImage" alt="Illustration: a big floppy disk emerging from behind mountains with sun rays behind it" /></p>
+                <p class="msg msg--highlight ">Backups are crucial if you don't want to have a bad time. And don't just use one! Here's how I do it.</p>
+
+<p>Data loss sucks and will happen to everyone, so back up your stuff and not only in one place. Consider hot &amp; cold backups, automatic and manual ones, and periodically verifying backups, especially for important stuff.</p>
+<p>My method is to put all of my <strong>Construct projects inside Dropbox</strong>, and since I'm almost always online that's already a form of automatic backup, since Dropbox detects when I save a project, immediately pushes the change to the server (and keeps a few versions back as well). Because Dropbox historically didn't support emojis in file names (and I like to use them in event sheet names), I opted to use c3p project files instead of project folders. At some point in 2025 Dropbox added the feature (at least on Windows, no idea if it works on any other OS), but so far I kept the practice. A disadvantage is that saving is a bit slower due to the extra zipping step, but my projects are usually not too big, so that's not a big issue for me.</p>
+<p>Every few hours I <strong>save the project with a new file name</strong> (eg. <code>MyProject-v01.c3p</code>, then <code>MyProject-v02.c3p</code>, etc), which also constitutes a form of versioning. If you prefer working with project folders, git is probably the best idea; just don't forget to commit and push to remote (eg. GitHub, GitLab, whatever floats your boat) regularly.</p>
+<p>I also use <strong>GitHub for manual backups</strong> by converting my c3p files into git commits with <a href="https://github.com/fodi/c3p2git">this script</a> and pushing them to remote every once in a while (note that I'm only doing hobby stuff). Since I use 3 PCs for work (one of the reasons I went with Dropbox) they also act as offline snapshots; in case something goes terribly wrong with the contents of my Dropbox, I can boot one of the PCs disconnected form the Internet and make a backup of the (hopefully valid) state of my Dropbox.</p>
+<p><strong>Construct has an automatic backup feature</strong> and you should use it. You can set it up with a cloud provider or just a local folder. I do the latter one, but the folder is inside my Dropbox too. I can't vouch for other sync providers, but there's a good chance Google Drive, OneDrive, Mega and Syncthing are viable options.</p>
             ]]>
         </content>
     </entry>
