@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2025-12-29T17:15:15+01:00</updated>
+    <updated>2026-01-05T01:32:01+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -244,6 +244,9 @@
 <li><a href="https://gwfh.mranftl.com/fonts">Google Webfonts Helper</a>: alternative Google Fonts frontend for downloading fonts in specific formats (woff, woff2, ttf, otf, eot, svg).</li>
 <li><a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a>: a repository of free nad permissively licensed 2D, 3D, vector graphics, sound and music assets.</li>
 <li><a href="https://game-icons.net/">Game-icons.net</a>: a huge collection of two-color SVG icons available under CC-BY 3.0 license.</li>
+<li><a href="https://www.drpetter.se/project_sfxr.html">sfxr</a>, <a href="https://www.bfxr.net/">bfxr</a>, <a href="https://jfxr.frozenfractal.com/">jfxr</a>, <a href="https://chr15m.itch.io/jsfxr">jsfxr</a>: open source sound effect generators</li>
+<li><a href="https://sfbgames.itch.io/chiptone">Chiptone</a>: free sound effect synth</li>
+<li><a href="https://labbed.net/software/labchirp/">LabChirp</a>: free cross-platform sound effect synth</li>
 </ul>
 <h2 id="mcetoc_1ilgrsioa1k">Project management &amp; collaboration</h2>
 <ul>
@@ -261,6 +264,11 @@
 <li><a href="https://www.omnicalculator.com/math">Omnicalculator</a>: learning resource and interactive calculators.</li>
 <li><a href="https://deepnight.net/games/game-feel/">Game Feel Demo</a> by Deepnight Games: an interactive demonstration of a lot of ways to add "juice" to a game.</li>
 <li><a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> (Robert Nystrom): free resource on video game programming practices.</li>
+</ul>
+<h1>Marketing tools</h1>
+<ul>
+<li><a href="https://bluepinstudio.com/tools/">Blue Pin Studio's tools</a>: awesome free market research tools using data scraped from Steam</li>
+<li><a href="https://app.sensortower.com/vgi/">Video Game Insights</a>: Steam market research tool</li>
 </ul>
 <p>If you like this list, be sure to check out a similar <a href="https://docs.google.com/document/d/1IinnBt7pj2dnydrdsHC_4t9p4tq4QIjkQ75HJot7gz0/">collection by clovelt</a>, which also contains resources on business, marketing and publishing.</p>
             ]]>
