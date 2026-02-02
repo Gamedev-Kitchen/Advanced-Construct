@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://advancedconstruct.net/building-cordova-android-projects-with-cli/",
+            "url": "https://advancedconstruct.net/building-cordova-android-projects-with-cli/",
+            "title": "One way to build Cordova Android projects with CLI tools",
+            "summary": "This is a guide to set up Cordova and an Android build environment to turn HTML5 projects into APK /&hellip;",
+            "content_html": "<p>This is a guide to set up Cordova and an Android build environment to turn HTML5 projects into APK / AAB files locally, using command line tools only. The guide is for Windows (but can probably be adapted to Linux &amp; macOS as well) and should work with any Cordova project; it's not specific to Construct 3 exports. This was written in <strong>February 2026</strong> and might not age well.</p>\n<h2>Setting up the build environment</h2>\n<p>We need to install <strong>Node.js, OpenJDK, Android Command Line Tools </strong>and <strong>Gradle</strong> to build our Cordova Android project.</p>\n<p>I like to use <a href=\"https://scoop.sh/\">Scoop</a> (an open source CLI installer for Windows). If you have the <a href=\"https://github.com/ScoopInstaller/Extras\">Extras</a> bucket added, you can use this one liner to install all of the above:<br><br><code>scoop install nodejs-lts openjdk17 android-clt gradle-bin</code></p>\n<p>The <strong>Cordova</strong> globally using the Node.js package manager:</p>\n<p><code>npm install -g cordova</code><br><br>At this point we need a <strong>Cordova Android project</strong>. If you already have one, go to its directory and skip to the next section. If you're using Construct, go to Export, select Android and on the <strong>Cordova options</strong> screen select <strong>Cordova project</strong>.</p>\n<p>If you just want to set up the build environment, you can create a blank Cordova Android project with the following commands:<br><br><code>cordova create blank-app</code><br><code>cd blank-app</code><br><code>cordova platform add android</code><code></code></p>\n<h2>Installing Android SDK Build Tools</h2>\n<p>At this point we can try to build the project. It will probably download some dependencies, but eventually fail and give you an error message.<br><br><code>cordova build android</code><br><br>The error message will tell you to install a specific version of the Android Build Tools (eg. 35.0.0), which may or may not be available from the Android SDK manager. It's best to list all available packages first:<br><br><code>sdkmanager --list</code><br><br>Look for \"build-tools\" and copy the line that matches or a tiny bit superseeds the version number requested by Gradle. Proceed to install the relevant version (35.0.0 in the example):<br><br><code>sdkmanager --install build-tools;35.0.0</code><br><br>If something goes wrong, you can uninstall a package like this:</p>\n<p><code>sdkmanager --uninstall build-tools;35.0.0</code><br><br>You can check what's installed at the moment with this command:<br><br><code>sdkmanager --list</code></p>\n<h2>Installing more dependencies &amp; first build</h2>\n<p>After Android SDK Build Tools are installed, we can attempt to build again:<br><br><code>cordova build android</code><br><br>This time it will hopefully proceed to install the remaining build dependencies and eventually finish the build successfully. If you have a slow Internet connection, it'll take a while. Subsequent builds will be faster.</p>\n<p>The previous command creates a debug build. If you want to make a signed production build, you can use the following command as a template, just replace the <code>???</code> parts with the relevant values:</p>\n<p><code>cordova build android --release -- --keystore=\"???.jks\" --keystoreType jks --storePassword=??? --password=??? --alias=???</code></p>\n<p>That's about it! Happy building :)</p>",
+            "image": "https://advancedconstruct.net/media/posts/25/android-builds.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Guides"
+            ],
+            "date_published": "2026-02-02T20:36:22+01:00",
+            "date_modified": "2026-02-02T23:56:30+01:00"
+        },
+        {
             "id": "https://advancedconstruct.net/procedural-generation-cheat-sheet/",
             "url": "https://advancedconstruct.net/procedural-generation-cheat-sheet/",
             "title": "Procedural generation cheat sheet",
@@ -153,22 +169,6 @@
             ],
             "date_published": "2025-08-13T20:38:00+02:00",
             "date_modified": "2025-09-21T11:00:04+02:00"
-        },
-        {
-            "id": "https://advancedconstruct.net/keyboard-mastery/",
-            "url": "https://advancedconstruct.net/keyboard-mastery/",
-            "title": "Keyboard mastery",
-            "summary": "<p class=\"msg msg--highlight \">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>\n",
-            "content_html": "<p class=\"msg msg--highlight \">Switching between the mouse and keyboard can slow you down when you're working in event sheets. But keyboard shortcuts save the day!</p>\n\n<p>One of the best ways to increase your productivity in any software is to learn keyboard navigation and shortcuts. Construct has very good \"keyboard coverage\", especially in event sheets.</p>\n<p>I find that switching between keyboard and mouse slows me down and doesn't help with my flow either, so I re-read the list of keyboard shortcuts in the official docs from time to time and try incorporating more of them in my workflow.</p>\n<p>You can <a href=\"https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts\">check out the list of Construct's keyboard shortcuts here</a>, and you might want to bookmark it too while you're there. I highly recommend starting with the shortcuts for the event sheet view, but if you spend a lot of time in the animation editor, those shortcuts come super handy as well.</p>\n<p>Moving the cursor (or selection) via keyboard in event sheets might be a bit awkward at first, but I think it's worth the effort to learn it.</p>\n<p>More seasoned developers probably know most cursor navigation shortcuts too, but just in case, here's a little refresher. (Note that these are for Windows, they probably work on Linux, possibly on macOS with some modifications.)</p>\n<ul>\n<li><em>Home</em> / <em>End</em> moves the cursor to the start or end of the line</li>\n<li><em>Ctrl</em> + <em>Home</em> / <em>End</em> to move to the start or end of the document</li>\n<li><em>Page up</em> / <em>Page down</em> does what it says on the tin :)</li>\n<li><em>Ctrl</em> + <em>Left</em> / <em>Right</em> arrow keys move the cursor by one word. What constitutes a word might vary based on the app or your OS; spaces and special characters are word delimiters most of the time with some exceptions (eg. underscore usually is not, hyphen-minus-dash depends).</li>\n</ul>\n<p>All of the above can be combined with <em>Shift</em> to select text.</p>\n<p>Since Construct is running in a browser, it's worth learning some of those shortcuts (these might depend on your browser or OS as well), especially:</p>\n<ul>\n<li><em>Ctrl</em> + <em>R</em> to reload; add Shift to force your browser to ignore the local cache</li>\n<li><em>Ctrl</em> + <em>W</em> to close a tab (including Construct, careful :), add <em>Shift</em> to close all tabs in the current window</li>\n<li><em>Ctrl</em> + <em>Shift</em> + <em>I</em> to open developer tools</li>\n</ul>",
-            "image": "https://advancedconstruct.net/media/posts/12/mouse-slow.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Productivity"
-            ],
-            "date_published": "2025-08-13T20:10:00+02:00",
-            "date_modified": "2025-09-21T11:00:33+02:00"
         }
     ]
 }
