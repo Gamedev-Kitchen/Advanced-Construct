@@ -3,14 +3,14 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2026-02-02T23:56:30+01:00</updated>
+    <updated>2026-02-02T23:55:37+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://advancedconstruct.net</id>
 
     <entry>
-        <title>One way to build Cordova Android projects with CLI tools</title>
+        <title>One way to build Cordova Android projects with CLI tools only</title>
         <author>
             <name>Fodi</name>
         </author>
