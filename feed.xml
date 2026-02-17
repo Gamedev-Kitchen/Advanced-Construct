@@ -3,7 +3,7 @@
     <title>Advanced Construct</title>
     <link href="https://advancedconstruct.net/feed.xml" rel="self" />
     <link href="https://advancedconstruct.net" />
-    <updated>2026-02-04T21:00:43+01:00</updated>
+    <updated>2026-02-17T22:21:43+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -308,6 +308,7 @@
 <li><a href="https://www.omnicalculator.com/math">Omnicalculator</a>: learning resource and interactive calculators.</li>
 <li><a href="https://deepnight.net/games/game-feel/">Game Feel Demo</a> by Deepnight Games: an interactive demonstration of a lot of ways to add "juice" to a game.</li>
 <li><a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> (Robert Nystrom): free resource on video game programming practices.</li>
+<li><a href="https://matthias-research.github.io/pages/tenMinutePhysics/index.html">Ten Minute Physics</a>: excellent explainers on various 2D and 3D physics simulations of rigid bodies, soft bodies, fire, fluids, cloth, et cetera.</li>
 </ul>
 <h1>Marketing tools</h1>
 <ul>
@@ -370,6 +371,8 @@
 <li><a href="https://gwfh.mranftl.com/fonts">Google Webfonts Helper</a>: for downloading free font files from Google Fonts in any format (including TTF)</li>
 <li><a href="https://comigo.itch.io/placeholder-gen">CoMiGo's Placeholder Generator</a>: a simple, free and engine-agnostic placeholder sprite generator, great for grayboxing.</li>
 <li><a href="https://github.com/bryc/code/blob/master/jshash/PRNGs.md">Javascript PRNGs</a>: public domain code for various seed generators, seeded PRNGs and hashing functions. Can be useful for making games with procedurally generated content.</li>
+<li><a href="https://easings.net/">Easing Function Cheat Sheet</a>: although not specific to Construct, it's displays all easing functions available in Construct's Tween behaviour in a visual way (with animations as well).</li>
+<li><a href="https://range-input-css.netlify.app/">Range Input (aka. "Slider bar") CSS generator</a>: define default styles for the slider bar object (which also make sure it looks the same on all platforms and browser engines)</li>
 </ul>
 <h2>Services</h2>
 <ul>
